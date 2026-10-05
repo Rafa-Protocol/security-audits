@@ -36,10 +36,10 @@ coverage of the current `RafaFundV2` contract set.
 
 | Field | Detail |
 | --- | --- |
-| Status | Draft v0.1 - preliminary, no fixes reviewed |
+| Status | Draft v0.1 - RAFA remediation published; auditor re-review pending |
 | Review period | September 28-October 4, 2026 |
 | Audited commit | [`2ddd1c3`](https://github.com/Rafa-Protocol/rafa-fund/commit/2ddd1c386e29a6d6d63eae080f48f0d417d54f61) |
-| Remediation commit | Pending in the supplied draft |
+| Remediation commit | [`a32f98a`](https://github.com/Rafa-Protocol/rafa-fund/commit/a32f98ae20e96fd61aa1b4832d24101d6668616e) ([merged by PR #2](https://github.com/Rafa-Protocol/rafa-fund/pull/2)) |
 | Scope | `RafaFundV2`, `RafaAssetRegistry`, `FundFactoryV2`, `ChainlinkPriceOracle`, Aerodrome and Uniswap V3 adapters, interfaces and deployment tooling |
 
 The supplied DatSon360 document is explicitly marked **Draft v0.1, not for
@@ -50,12 +50,17 @@ The draft lists 12 preliminary findings: 0 Critical, 1 High, 2 Medium, 5 Low
 and 4 Informational. All 12 are marked open in the document, and the report says
 that severities, counts and wording may change before a final report.
 
+RAFA subsequently published code changes, tests, operational controls, and a
+finding-by-finding response in [the October 2026 remediation record](./REMEDIATION.md).
+Those dispositions are RAFA's engineering assessment. They are not a final
+DatSon360 opinion, and every finding remains pending independent re-review.
+
 ## At a glance
 
 | Auditor | Report status | Scope generation | Critical | High | Medium | Low | Informational / considerations | Open or pending in report |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Grey Swan | Final | Earlier prototype | 1 | 2 | 2 | 3 | 4 | 2 considerations |
-| DatSon360 | Draft v0.1 | Current protocol at `2ddd1c3` | 0 | 1 | 2 | 5 | 4 | 12 preliminary findings |
+| DatSon360 | Draft v0.1; remediation published | Current protocol at `2ddd1c3` | 0 | 1 | 2 | 5 | 4 | 12 pending auditor re-review |
 
 ## File integrity
 
